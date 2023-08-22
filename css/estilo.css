@@ -1,0 +1,220 @@
+header nav {
+  background-color: #1e1e1e;
+}
+header nav .navbar-toggler {
+  background-color: #fff;
+}
+header nav .nav-link {
+  color: #fff;
+}
+header nav .nav-link:hover {
+  background-color: #fff;
+  color: #CB3131;
+}
+header nav .colorSpan {
+  color: #CB3131;
+}
+header nav .btn {
+  background-color: #CB3131;
+  color: #fff;
+}
+header nav .btn:hover {
+  background-color: #fff;
+  color: #CB3131;
+}
+header nav .navbar-brand {
+  color: #fff;
+}
+
+footer p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.container {
+  font-size: 20px;
+  text-align: center;
+}
+
+#product-card {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+#section-ubication {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+#sobre-nosotros .imgfondo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/claude-gabriel-NOUiIuwzECk-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-right-radius: 10px;
+}
+#sobre-nosotros .imgfondo h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+#sobre-nosotros .imgfondo .colorSpan {
+  color: #CB3131;
+}
+#sobre-nosotros .imgfondo p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+div .btn {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+div .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#section-presentation h1 {
+  color: #1e1e1e;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
+#section-presentation .colorSpan {
+  color: #CB3131;
+}
+#section-presentation p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #1e1e1e;
+}
+
+#hero h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: "Times New Roman", Times, serif;
+}
+#hero h3 {
+  font-weight: bold;
+}
+#hero p {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+#product-card img {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+
+#section-ubication .iframeMap {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+#section-ubication .tituloUbication {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#section-ubication .textoUbication {
+  margin: 30px;
+}
+#section-ubication .tituloIframe {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 40px;
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.container {
+  font-size: 20px;
+  text-align: center;
+}
+
+#product-card {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+#section-ubication {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  color: gray;
+}
+footer .nav-link {
+  color: gray;
+  display: inline;
+}
+footer .nav-link:hover {
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.bodyBox {
+  background-color: antiquewhite;
+}
+
+#btn-main {
+  margin-top: 26px;
+}
+
+@media (min-width: 1024px) {
+  #Header nav {
+    height: 100px;
+  }
+  #Header nav div a {
+    font-size: 34px;
+  }
+  #Header nav li a {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  #sobre-nosotros {
+    margin-top: 1px;
+  }
+  #sobre-nosotros .imgfondo {
+    height: 350px;
+  }
+  #product-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  #section-ubication .iframeMap {
+    width: 700px;
+    height: 800px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

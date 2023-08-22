@@ -1,0 +1,67 @@
+@import "variables";
+@import "header";
+@import "main";
+@import "mixin";
+@import "footer";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.bodyBox {
+    background-color: antiquewhite;
+}
+
+#btn-main {
+    margin-top: 26px;
+}
+
+@media (min-width: 1024px) {
+    #Header {
+        nav {
+            height: 100px;
+
+            div {
+                a {
+                    font-size: 34px;
+                }
+            }
+
+            li {
+                a {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    #sobre-nosotros {
+        margin-top: 1px;
+
+        .imgfondo {
+            height: 350px;
+        }
+    }
+
+    #product-card {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    #section-ubication {
+        .iframeMap {
+            width: 700px;
+            height: 800px;
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+}

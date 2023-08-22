@@ -1,0 +1,27 @@
+@mixin ubicacion($size, $alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+}
+
+@mixin grid($display, $template, $space, $mt) {
+    display: $display;
+    grid-template-columns: $template;
+    gap: $space;
+    margin-top: $mt;
+}
+
+footer p {
+    @include ubicacion(24px, center )
+}
+
+.container {
+    @include ubicacion(20px, center )
+}
+
+#product-card {
+    @include grid(grid, auto, 20px, 40px)
+}
+
+#section-ubication {
+    @include grid(grid, auto, 20px, 40px)
+}
