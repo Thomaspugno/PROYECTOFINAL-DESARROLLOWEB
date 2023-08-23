@@ -17,6 +17,12 @@
     background-color: antiquewhite;
 }
 
+.bodyBoxcontact {
+    background-color: $color_2;
+    color: $color_1;
+    padding: 0 1.5em;
+}
+
 #btn-main {
     margin-top: 26px;
 }
@@ -62,6 +68,23 @@
 
     #section-servicios {
         width: 800px;
+    }
+
+    .cajaContact {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        height: 700px;
+    }
+
+    .cajaContact > * {
+        padding: 2em;
+    }
+
+    .contactInfo h4,
+    .contactInfo ul,
+    .contactInfo p {
+        padding: 1em;
+        text-align: left;
     }
 
     footer {

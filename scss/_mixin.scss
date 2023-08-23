@@ -10,6 +10,21 @@
     margin-top: $mt;
 }
 
+@mixin contact($ancho,$padd,$border,$fondo,$outline,$color,$borderbottom) {
+    width: $ancho;
+    padding: $padd;
+    border: $border;
+    background: $fondo;
+    outline: $outline;
+    color: $color;
+    border-bottom: $borderbottom;
+}
+
+@mixin infocontact($textcenter,$margin) {
+    text-align: $textcenter;
+    margin: $margin;
+}
+
 footer p {
     @include ubicacion(24px, center )
 }
@@ -25,3 +40,19 @@ footer p {
 #section-ubication {
     @include grid(grid, auto, 20px, 40px)
 }
+
+.contactForm form input,
+.contactForm form textarea {
+    @include contact(100%,.7em ,none ,none ,0 ,$color_1 ,1px solid $color_3)
+}
+
+.contactForm form button {
+    @include contact(100%,.7em ,none ,$color_3 ,0 ,$color_1 ,none)
+}
+
+.contactInfo h4,
+.contactInfo ul,
+.contactInfo p {
+    @include infocontact(center,0 0 16px 0 )
+}
+

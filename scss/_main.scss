@@ -79,11 +79,11 @@ div .btn {
 }
 
 #product-card {
-        img {
-            width: auto;
-            height: 300px;
-            object-fit: cover;
-        }
+    img {
+        width: auto;
+        height: 300px;
+        object-fit: cover;
+    }
 }
 
 #section-ubication {
@@ -92,14 +92,17 @@ div .btn {
         height: 500px;
         border-radius: 10px;
     }
+
     .tituloUbication {
         font-size: 36px;
         font-weight: bold;
         text-transform: uppercase;
     }
+
     .textoUbication {
         margin: 30px;
     }
+
     .tituloIframe {
         font-weight: bold;
         text-transform: uppercase;
@@ -115,6 +118,76 @@ div .btn {
             text-decoration: underline;
             font-size: 20px;
             margin-top: 50px;
+        }
+    }
+}
+
+#section-contact {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+
+    span {
+        color: $color_3;
+    }
+}
+
+.cajaContact {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.cajaContact>* {
+    padding: 16px;
+}
+
+.contactForm {
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.contactForm {
+    form {
+        .block {
+            grid-column: 1/3;
+        }
+    }
+}
+
+.contactForm {
+    form {
+        button {
+            border: 0;
+            text-transform: uppercase;
+            margin-top: 60px;
+            padding: 16px;
+        }
+
+        button:hover {
+            background: $color_1;
+            color: $color_3;
+            transition: background-color 1s ease-out;
+            outline: 0;
+        }
+    }
+}
+
+.contactInfo {
+    background: black;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            padding: .3em;
         }
     }
 }
