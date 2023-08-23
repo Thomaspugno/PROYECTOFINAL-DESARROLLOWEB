@@ -136,6 +136,13 @@ div .btn:hover {
   text-decoration: underline;
 }
 
+#section-servicios div h1 {
+  color: #1e1e1e;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
 footer p {
   font-size: 24px;
   text-align: center;
@@ -210,6 +217,9 @@ footer .nav-link:hover {
   #section-ubication .iframeMap {
     width: 700px;
     height: 800px;
+  }
+  #section-servicios {
+    width: 800px;
   }
   footer {
     display: flex;
